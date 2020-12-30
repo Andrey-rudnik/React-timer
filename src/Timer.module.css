@@ -1,0 +1,68 @@
+
+.timer_wraper {
+    max-width: 500px;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgb(2,8,18);
+    background: linear-gradient(90deg, rgba(2,8,18,1) 0%, rgba(10,38,88,1) 35%, rgba(35,38,80,1) 100%);
+    padding: 50px 15px;
+    border-radius: 10px;
+}
+
+.time {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    border: none;
+    margin-left: 0.2rem;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 300ms ease-in-out;
+}
+
+.buttons button:hover {
+    background: #b66e0f;
+}
+
+
+.start {
+    background: #e08713;
+    color: white;
+}
+
+.stop {
+    background: #e08713;
+    color: white;
+}
+
+.reset {
+    background: #e08713;
+    color: white;
+}
+.wait{
+    background: #e08713;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .time {
+        font-size: 40px;
+    }
+    .buttons button{
+        padding: 15px 25px;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .buttons button{
+        padding: 15px 15px;
+    }
+}
